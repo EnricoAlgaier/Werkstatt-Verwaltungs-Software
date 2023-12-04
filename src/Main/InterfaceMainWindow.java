@@ -18,7 +18,7 @@ public class InterfaceMainWindow extends Window{
 		
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		
-		menueButtons.createButtons(40,  40, 150, 50, 50);
+		menueButtons.createButtons(60,  60, 150, 50, 50);
 		for(JButton button : menueButtons.getButtons()) {
 			add(button);
 		}
